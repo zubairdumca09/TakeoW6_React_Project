@@ -7,7 +7,7 @@ import { availibilityOptions } from '../data/availability'
 import { postData } from '../api'
 import { POST_BOOK } from '../api/urls'
 
-function CreateBook() {
+function CreateBook({ showBooks }) {
     const [title, setTitle] = useState();
     const [author, setAuthor] = useState();
     const [publisher, setPublisher] = useState();
@@ -47,6 +47,9 @@ function CreateBook() {
     }
     return (
         <div className="container my-5">
+            <div className="d-flex justify-content-center mt-5">
+                <button className="btn btn-primary" onClick={showBooks}>Show Books</button>
+            </div>
             <Input
                 label="Book Title"
                 placeholder="Book Title"

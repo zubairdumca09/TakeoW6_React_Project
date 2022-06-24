@@ -67,6 +67,16 @@
       "publisher": "hjjkjk",
       "availability": "no",
       "id": 9
+    },
+    {
+      "title": "F1",
+      "author": "A1",
+      "subject": "5",
+      "isbn": "ASBN1",
+      "numPages": "111",
+      "publisher": "P1",
+      "availability": "notConfirmed",
+      "id": 10
     }
   ]
 }
